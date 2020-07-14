@@ -6,7 +6,7 @@
 /* ---------------- header style ------------ */
 
 .headerContainer {
-    width: 100%;
+    width: 99%;
     height: 70px;
     border: 2px solid black;
     background-color: black;
@@ -14,7 +14,6 @@
 .headerParent {
     width: 100%;
     height: 40px;
-    border: 2px solid black;
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
@@ -89,10 +88,48 @@
 }
 .phone {
     width: 18%;
-    height: 50px;
+    height: 52px;
     background-color:  #8284ff;
     color: white;
     padding-top: 15px;
     font-size: 20px;
     transition: 0.2s;
+}
+.mainParent {
+    margin: 0 auto;
+    width: 80%;
+    height: 200px;
+    margin-top: 50px;
+}
+.textContainer {
+    width: 70%;
+    height: 300px;
+    margin: 0 auto;
+}
+.text1 {
+    width: 90%;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 25px;
+    padding-left: 30px;
+}
+.text2 {
+    width: auto;
+    height: 100px;
+    padding: 10px;
+    text-align: center;
+}
+.text3 {
+    width: 20%;
+    height: 50px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.text3 button {
+    width: 150px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: #a581f0;
 }
