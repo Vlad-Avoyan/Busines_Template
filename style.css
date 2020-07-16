@@ -172,3 +172,31 @@
 .experianceDiv, .experts, .customersInfo, .partners span {
     font-size: 30px;
 }
+
+/* ----------about our customers (style) */
+
+.parentAboutDiv {
+    width: 100%;
+    height: 500px;
+    background-color: #a3a8ff;
+}
+.parentAboutDiv h1 {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+.parentNamesOfCustomers {
+    width: 80%;
+    height: 280px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    overflow: hidden;
+
+}
+.parentNamesOfCustomers span {
+    font-size: 25px;
+    color: blue;
+    cursor: pointer;
+}
